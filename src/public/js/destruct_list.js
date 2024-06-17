@@ -4,3 +4,8 @@ console.log(x, y, z);
 
 const [a, b] = list;
 console.log(a, b);
+const [l, m, n, o] = list;
+console.log(l, m, n, o);
+
+const [p, , r] = list;
+console.log(p, r);

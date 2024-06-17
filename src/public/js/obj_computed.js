@@ -1,7 +1,7 @@
 let i = 0;
-const member = {
+const member_two = {
     [attr$(++i)]: '佐藤理央',
     [attr$(++i)]: '女性',
     [attr$(++i)]: '18歳'
 };
-console.log(member);
+console.log(member_two);
