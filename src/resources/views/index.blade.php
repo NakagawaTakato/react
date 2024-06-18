@@ -9,7 +9,7 @@
 <script src="{{ asset('js/obj_computed.js') }}"></script>
 <script src="{{ asset('js/destruct_obj.js') }}"></script>
 <script src="{{ asset('js/func_rest.js') }}"></script>
-<script src="{{ asset('js/modle_basic.js') }}"></script>
+<script src="{{ asset('js/modle_basic.js') }}" type="module"></script>
 @endsection
 
 @section('content')
