@@ -2,7 +2,9 @@
 
 @section('css')
 <link rel="stylesheet" href="{{ asset('css/index.css') }}">
-<script src="{{ asset('js/module_alias.js') }}"></script>
+<script type="module" src="{{ asset('js/module_alias.js') }}"></script>
+<script type="module" src="{{ asset('js/module_all.js') }}"></script>
+<script src="{{ asset('js/Util.js') }}"></script>
 
 @endsection
 
